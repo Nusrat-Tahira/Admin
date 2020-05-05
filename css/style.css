@@ -1,0 +1,84 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	
+	background: url(../img/candle.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container {
+    width: 40%;
+    margin: 70px auto;
+}
+
+.login-section {
+    background: #457373c7;
+    padding: 20px;
+     box-shadow: 2px 2px 13px #d22a008c;
+
+}
+
+.login-section img {
+    margin: 0px auto;
+    display: block;
+    width: 200px;
+
+}
+
+.login-section h2 {
+    text-align: center;
+    color: #e6f5f5;
+    font-size: 35px;
+    margin: 10px auto;
+}
+
+.form-control {
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+input.form-control.btn.btn-block.btn-light:hover {
+    transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    box-shadow: 2px 2px 3px cyan;
+}
+
+fieldset {
+      overflow: hidden
+    }
+    
+    .some-class {
+      float: left;
+      clear: none;
+    }
+    
+    label {
+      float: left;
+      clear: none;
+      display: block;
+      padding: 0px 5em 5px 8px;
+      color: white;
+    }
+    
+    input[type=radio],
+    input.radio {
+      float: left;
+      clear: none;
+      margin: 6px 0 0 2px;
+    }
+
+    .text-white {
+    color: #fff!important;
+    margin-bottom: 10px;
+}
+
+input#start {
+    margin-bottom: 20px;
+}

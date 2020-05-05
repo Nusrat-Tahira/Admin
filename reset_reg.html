@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Reset</title>
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="fonts/FontsAwesome/css/all.min.css">
+	<!-- Bootstrap css -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Css File -->
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="login-section">
+			<img src="img/login.png" alt="Avatar">
+			<h2>Admin Registration</h2>
+			<form>
+
+			<div class="form-group">
+				<input type="text" placeholder="First Name" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<input type="text" placeholder="Last Name" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<input type="text" placeholder="Username" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<input type="email" placeholder="Email" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<input type="password" placeholder="Password" class="form-control">
+			</div>
+
+			<div class="form-group">
+				<input type="password" placeholder="Confirm Password" class="form-control">
+			</div>
+
+			<fieldset>
+				<p class="text-white">Gender</p>
+		      <div class="some-class">
+
+		      <input type="radio" class="radio" name="gen" value="male" id="male" />
+		      <label for="male">Male</label>
+		      <input type="radio" class="radio" name="gen" value="female" id="female" />
+		      <label for="female">Female</label>
+		      <input type="radio" class="radio" name="gen" value="other" id="other" />
+		      <label for="other">Other</label>
+		      </div>
+		    </fieldset>
+
+		    <fieldset>
+		      <div class="form-group">
+		      	<p class="text-white">Birthday</p>
+				<input class="form-control" type="date" id="start" name="trip-start"
+                 value="yyyy-mm-dd"
+                 min="1990-01-01" max="2030-12-31">
+
+		      </div>
+		    </fieldset>
+
+		    <div class="form-group">
+				<select class="form-control" name="division" id="">
+					<option value="Select">Select Division</option>
+					<option value="Dhaka">Dhaka</option>
+					<option value="Comilla">Comilla</option>
+					<option value="Barisal">Barisal</option>
+					<option value="Rajshahi">Rajshahi</option>
+				</select>
+			</div>
+
+			<div class="form-group">
+				<input type="submit" value="Submit" class="form-control btn btn-block btn-light">
+			</div>
+
+		</form>
+
+		<h4 style="float: right;"><a class="text-white" href="index.html">Login</a></h4>
+		<h4><a class="text-white" href="reset_reg.html">Reset</a></h4>
+
+		</div>
+	</div>
+	
+</body>
+<!-- jQuery Slim -->
+	<script src="js/jquery-3.4.1.slim.min.js"></script>
+	<!-- popper js -->
+	<script src="js/popper.min.js"></script>
+	<!-- Bootstrap js -->
+	<script src="js/bootstrap.min.js"></script>
+</html>
